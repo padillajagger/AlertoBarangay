@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "737869365215",
+    "project_id": "alerto-barangay-8b131",
+    "storage_bucket": "alerto-barangay-8b131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737869365215:android:9c42f286491d75369cce6a",
+        "android_client_info": {
+          "package_name": "com.jagger.alertobarangay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737869365215-06mckkrrgk8s4kee8cdpm49319sq8edo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jagger.alertobarangay",
+            "certificate_hash": "6d84b5838bfa13c0dfe6e84569deeb581a13167e"
+          }
+        },
+        {
+          "client_id": "737869365215-uum8q7dd2l590rqqhm41h0td1f7dhg62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXmJ7xfBbrOHfBZlKGNoTj15CYozPPQEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737869365215-uum8q7dd2l590rqqhm41h0td1f7dhg62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

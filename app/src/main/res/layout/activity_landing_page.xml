@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".LandingPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/alerto"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Love My\nBacoor"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/muli_black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sama-sama, tulong tulong!"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:onClick="callLogin"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:transitionName="transition_btnlogin"
+                tools:ignore="Buttonstyle"/>
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="callSignUp"
+                android:layout_weight="1"
+                android:text="@string/sign_up"
+                android:textColor="@color/white"
+                android:transitionName="transition_signup"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
